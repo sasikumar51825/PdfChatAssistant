@@ -153,10 +153,10 @@ response = llm.invoke(prompt)
 * **Generation**: LLM produces answer grounded in document content
 
 ### Why RAG?
-* ✅ Reduces hallucination by grounding responses in source documents
-* ✅ Enables domain-specific knowledge without fine-tuning
-* ✅ Provides source attribution and transparency
-* ✅ Updates knowledge by simply adding new documents
+* Reduces hallucination by grounding responses in source documents
+* Enables domain-specific knowledge without fine-tuning
+* Provides source attribution and transparency
+* Updates knowledge by simply adding new documents
 
 ### Chunking Strategy
 * **chunk_size=500**: Balances context vs. specificity
@@ -171,7 +171,7 @@ response = llm.invoke(prompt)
 ## API Key
 
 Get your free Google Gemini API key:
-👉 [Google AI Studio](https://makersuite.google.com/app/apikey)
+[Google AI Studio](https://makersuite.google.com/app/apikey)
 
 ## Acknowledgments
 
