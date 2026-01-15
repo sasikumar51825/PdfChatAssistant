@@ -132,13 +132,13 @@ response = llm.invoke(prompt)
 
 ## Features
 
-* 🔗 **Full LangChain RAG Pipeline**: Document loaders → Splitters → Embeddings → Vector Store → Retrieval → LLM
-* 🧠 **Conversation Memory**: Chat history integration for context-aware responses
-* 🎯 **Semantic Search**: FAISS vector similarity with top-3 retrieval
-* 📊 **Chunking Strategy**: Recursive character splitting with overlap for context preservation
-* 🔍 **Source Attribution**: Distinguishes document-based vs. general knowledge answers
-* ⚡ **Efficient Retrieval**: FAISS indexing for fast similarity search
-* 💬 **Streamlit Interface**: Interactive chat UI with session state management
+* **Full LangChain RAG Pipeline**: Document loaders → Splitters → Embeddings → Vector Store → Retrieval → LLM
+* **Conversation Memory**: Chat history integration for context-aware responses
+* **Semantic Search**: FAISS vector similarity with top-3 retrieval
+* **Chunking Strategy**: Recursive character splitting with overlap for context preservation
+* **Source Attribution**: Distinguishes document-based vs. general knowledge answers
+* **Efficient Retrieval**: FAISS indexing for fast similarity search
+* **Streamlit Interface**: Interactive chat UI with session state management
 
 ## Technologies
 
