@@ -144,38 +144,7 @@ response = llm.invoke(prompt)
 
 **LangChain** | **Google Gemini AI** | **FAISS** | **PyMuPDF** | **Streamlit** | **RAG Architecture** | **Vector Embeddings** | **Semantic Search**
 
-
-## Key RAG Concepts
-
-### Retrieval-Augmented Generation
-* **Retrieval**: Fetches relevant document chunks using vector similarity
-* **Augmentation**: Adds retrieved context to LLM prompt
-* **Generation**: LLM produces answer grounded in document content
-
-### Why RAG?
-* Reduces hallucination by grounding responses in source documents
-* Enables domain-specific knowledge without fine-tuning
-* Provides source attribution and transparency
-* Updates knowledge by simply adding new documents
-
-### Chunking Strategy
-* **chunk_size=500**: Balances context vs. specificity
-* **chunk_overlap=50**: Prevents information loss at boundaries
-* **Recursive splitting**: Maintains semantic coherence
-
-### Vector Similarity Search
-* **FAISS**: Facebook AI Similarity Search for efficient nearest neighbor
-* **k=3**: Retrieves top 3 most relevant chunks
-* **Cosine similarity**: Measures semantic similarity between embeddings
-
 ## API Key
 
 Get your free Google Gemini API key:
 [Google AI Studio](https://makersuite.google.com/app/apikey)
-
-## Acknowledgments
-
-* **LangChain** - RAG framework and abstractions
-* **Google Gemini AI** - Embeddings and language model
-* **FAISS** - Efficient vector similarity search
-* **Streamlit** - Interactive web interface
